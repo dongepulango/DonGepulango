@@ -6687,7 +6687,7 @@ body {
 }
 
 .container-fluid {
-  max-width: 1750px;
+  max-width: 1400px;
 }
 
 a {
@@ -7442,11 +7442,19 @@ label {
   right: 0;
   top: 0;
   z-index: 3;
-  height: 500px;
+  height: 491px;
   background-color: #181f23;
   background-image: url("../img/ocean.jpg");
   color: #fff;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .dg-hero {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    height: 531px;
+  }
 }
 
 .dg-hero:before {
@@ -7461,14 +7469,6 @@ label {
   left: 0;
   bottom: 0;
   right: 0;
-}
-
-@media (min-width: 768px) {
-  .dg-hero {
-    padding-top: 170px;
-    padding-bottom: 170px;
-    height: 559px;
-  }
 }
 
 .dg-hero.scroll-passed {
@@ -7563,7 +7563,7 @@ label {
   position: relative;
   z-index: 5;
   background: #fff;
-  margin-top: 500px;
+  margin-top: 491px;
   min-height: 500px;
 }
 
@@ -7571,7 +7571,7 @@ label {
   .dg-works {
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-top: 559px;
+    margin-top: 531px;
   }
 }
 
@@ -7642,7 +7642,7 @@ label {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 992px) {
   .dg-works-item {
     float: left;
     width: 50%;
@@ -7654,6 +7654,18 @@ label {
   }
   .dg-works-item:nth-child(2n+1) {
     clear: right;
+  }
+  .dg-works-item:after {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1300px) {
+  .dg-works-item {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 
@@ -7692,8 +7704,7 @@ label {
 
 .dg-works-item h3 {
   font-size: 16px;
-  color: #3bc5ec;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -7720,6 +7731,10 @@ label {
   .dg-works-item .dg-work-text p {
     font-size: 12px;
   }
+}
+
+.dg-works-item .dg-work-text p strong {
+  color: #263238;
 }
 
 .dg-works-item .dg-work-text p a {
