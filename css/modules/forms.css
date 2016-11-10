@@ -1,0 +1,76 @@
+/*
+Error: Undefined variable: "$screen-sm-min".
+        on line 4 of /Users/dongepulango/Documents/Jobs/DG/sass/modules/forms.sass
+
+1: /* ////====== FORMS STYLES =====//// *\/
+2: 
+3: .form-group
+4:   @media (min-width:$screen-sm-min)
+5:     margin-bottom: 30px
+6:   &.row
+7:     margin-left: -5px
+8:     margin-right: -5px
+9:     > div
+
+Backtrace:
+/Users/dongepulango/Documents/Jobs/DG/sass/modules/forms.sass:4
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:540:in `block in run_interp_no_strip'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `map'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:538:in `run_interp_no_strip'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:545:in `run_interp'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:510:in `visit_media'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:17:in `block in render'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:16:in `render'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `each'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/sass_compiler.rb:40:in `compile!'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/update_project.rb:49:in `perform'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/stamp_pattern.rb:76:in `perform'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/base.rb:18:in `execute'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/project_base.rb:19:in `execute'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
+/var/folders/lx/779wtd8s69g_y_jtfky9q4h80000gn/T/AppTranslocation/C5F382F2-15B5-492F-96D5-0F66B322F073/d/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$screen-sm-min\".\A         on line 4 of /Users/dongepulango/Documents/Jobs/DG/sass/modules/forms.sass\A \A 1: /* ////====== FORMS STYLES =====//// */\A 2: \A 3: .form-group\A 4:   @media (min-width:$screen-sm-min)\A 5:     margin-bottom: 30px\A 6:   &.row\A 7:     margin-left: -5px\A 8:     margin-right: -5px\A 9:     > div"; }

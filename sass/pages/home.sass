@@ -1,0 +1,182 @@
+/* ////====== HOME STYLES =====//// */
+
+.dg-hero
+  padding-top: 150px
+  padding-bottom: 150px
+  background: #f4f4f4
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  z-index: 3
+  height: 500px
+  background-color: #181f23
+  background-image: url('../img/ocean.jpg')
+  color: #fff
+  text-align: center
+  &:before
+    content: ""
+    display: block
+    background: rgba(#181f23, .85)
+    +cover()
+  @media (min-width:$screen-sm-min)
+    padding-top: 170px
+    padding-bottom: 170px
+    height: 559px
+  &.scroll-passed
+    position: static
+
+  .dg-hero-text
+    max-width: 530px
+    position: relative
+    z-index: 2
+    +center-block()
+    text-align: center
+    @media (min-width:1000px)
+      max-width: 650px
+    h1
+      color: #fff
+      font-family: $bello
+      font-size: 40px
+      @media (min-width:$screen-sm-min)
+        font-size: 60px
+        margin-bottom: 25px
+      @media (min-width:$screen-lg-min)
+        font-size: 70px
+        margin-bottom: 30px
+    p
+      font-size: 16px
+      line-height: 1.6
+      font-weight: 300
+      color: #999
+      strong
+        color: #fff
+      span
+        font-weight: normal
+      @media (min-width:$screen-sm-min)
+        font-size: 18px
+    .html
+      color: darken($brand-info, 8%)
+    .css
+      color: darken($brand-warning, 8%)
+    .js
+      color: darken($brand-error, 8%)
+    a
+      display: inline-block
+      color: #999
+      font-style: italic
+      border-bottom: 1px solid #999
+      line-height: 22px
+      &:hover,
+      &:focus,
+      &:active
+        color: #fff
+        border-bottom: 1px solid #fff
+
+
+//Works
+.dg-works
+  padding-top: 80px
+  padding-bottom: 80px
+  position: relative
+  z-index: 5
+  background: #fff
+  margin-top: 500px
+  min-height: 500px
+  @media (min-width:$screen-sm-min)
+    padding-top: 100px
+    padding-bottom: 100px
+    margin-top: 559px
+  @media (min-width:1300px)
+    padding-top: 140px
+    padding-bottom: 140px
+  &.scroll-passed
+    margin-top: 0
+  
+  .dg-works-heading
+    margin-bottom: 100px
+    text-align: center
+    @media (min-width:$screen-sm-min)
+      margin-bottom: 120px
+    h2
+      color: $text-lt
+      font-weight: normal
+      display: block
+      font-size: 10px
+      text-transform: uppercase
+      margin-bottom: 5px
+      @media (min-width:$screen-sm-min)
+        font-size: 11px
+    p
+      font-size: 18px
+      color: $text-drk
+      font-weight: normal
+      line-height: 1.2
+      @media (min-width:$screen-sm-min)
+        font-size: 24px
+
+.dg-works-item
+  margin-bottom: 40px
+  padding-bottom: 40px
+  +center-block()
+  max-width: 800px
+  position: relative
+  @media (min-width:$screen-sm-min)
+    margin-bottom: 80px
+    padding-bottom: 80px
+  @media (min-width:1300px)
+    float: left
+    width: 50%
+    max-width: 50%
+    padding-left: 30px
+    padding-right: 30px
+    padding-bottom: 40px
+    margin-bottom: 40px
+    &:nth-child(2n+1)
+      clear: right
+  &:after
+    content: ""
+    display: block
+    width: 70px
+    height: 1px
+    background: lighten($text, 62%)
+    position: absolute
+    margin: auto
+    left: 0
+    right: 0
+    bottom: 0
+  &:last-child
+    &:after
+      display: none
+  .dg-work-img-wrap
+    border-radius: 6px
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05)
+    margin-bottom: 20px
+    transition: all .2s ease-in-out
+    &:hover
+      box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15)
+    img
+     border-radius: 6px
+  h3
+    font-size: 16px
+    color: $primary
+    margin-bottom: 30px
+    text-align: center
+    @media (min-width:$screen-sm-min)
+      font-size: 18px
+  .dg-work-text
+    +clearfix()
+    
+    p
+      font-size: 11px
+      @media (min-width:$screen-sm-min)
+        font-size: 12px
+      a
+        color: $text
+        &:hover,
+        &:focus,
+        &:active
+          color: $link
+      + p
+        margin-top: 0
+        

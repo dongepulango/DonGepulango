@@ -1,0 +1,58 @@
+/* ////====== GLOBAL STYLES =====//// */
+
+html
+  background: #181f23
+
+body 
+  font-family: $maisonneue
+  color: $text
+  font-size: $font-size
+  line-height: 1.8
+  font-weight: 300
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.container-fluid
+  max-width: 1750px
+
+a 
+  color: $link
+  transition: all .2s ease-in-out
+  &:hover,
+  &:active, 
+  &:focus
+    color: darken($link, 10%)
+    text-decoration: none
+    outline: none
+  &:active
+    &:focus
+      outline: none
+
+a[x-apple-data-detectors]
+  color: inherit !important
+  text-decoration: none !important
+  font-size: inherit !important
+  font-family: inherit !important
+  font-weight: inherit !important
+  line-height: inherit !important
+  
+p 
+  margin-bottom: 0
+  + p 
+    margin-top: 15px
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-weight: bold
+  margin-top: 0
+  color: $text-drk
+
+hr
+  border-top-color: $border
+
+.wow
+  visibility: hidden
