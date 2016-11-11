@@ -1,3 +1,3 @@
 # Portfolio
 
-[https://dongepulango.github.io/DonGepulango](https://dongepulango.github.io/DonGepulango)
+[http://dongepulango.com/](dongepulango.com)
