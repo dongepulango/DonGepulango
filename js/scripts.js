@@ -1,6 +1,11 @@
 //Animations
 new WOW().init();
 
+//Preload Animations
+$(window).load(function() {
+  $("body").removeClass("preload");
+});
+
 //Outdated Browsers
 $(function() {
   outdatedBrowser({
