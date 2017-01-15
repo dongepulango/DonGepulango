@@ -2,9 +2,9 @@
 new WOW().init();
 
 //Preload Animations
-// $(window).load(function() {
-//   $("body").removeClass("preload");
-// });
+$(window).load(function() {
+  $("body").removeClass("preload");
+});
 
 //Outdated Browsers
 $(function() {
