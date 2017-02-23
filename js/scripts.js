@@ -22,7 +22,7 @@ $(function() {
     var wScroll = $(this).scrollTop();
     if (wScroll <= heroHeight) {
       $('#dg-hero-text').css({
-        'transform' : 'translate(0px, -'+ wScroll /9 +'%)'
+        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
       });
     }
     if (wScroll > heroHeight) {

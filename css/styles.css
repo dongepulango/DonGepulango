@@ -5078,7 +5078,8 @@ body {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
-  -o-transition: none !important; }
+  -o-transition: none !important;
+  transition: none !important; }
 
 .container-fluid {
   max-width: 1200px; }
@@ -5119,9 +5120,6 @@ h6 {
 
 hr {
   border-top-color: #adbcc4; }
-
-.wow {
-  visibility: hidden; }
 
 /* ////====== FORMS STYLES =====//// */
 @media (min-width: 768px) {
