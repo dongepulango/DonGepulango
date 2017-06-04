@@ -1,11 +1,3 @@
-//Animations
-new WOW().init();
-
-//Preload Animations
-$(window).load(function() {
-  $("body").removeClass("preload");
-});
-
 //Outdated Browsers
 $(function() {
   outdatedBrowser({
@@ -15,28 +7,3 @@ $(function() {
   });
 });
 
-//Hero Parallax
-$(function() {
-  var heroHeight = $('#dg-hero').outerHeight();
-  $(window).scroll(function(){
-    var wScroll = $(this).scrollTop();
-    if (wScroll <= heroHeight) {
-      $('#dg-hero-text').css({
-        'transform' : 'translate(0px, -'+ wScroll /5 +'%)'
-      });
-    }
-    if (wScroll > heroHeight) {
-      $('#dg-hero, #dg-works, #dg-nav').addClass('scroll-passed');
-      
-    } else {
-      $('#dg-hero, #dg-works, #dg-nav').removeClass('scroll-passed');
-    }
-  });
-  var target = $('#dg-hero-text');
-  $(document).scroll(function(e){
-    var scrollPercent = (700 - window.scrollY) / 700;
-    if(scrollPercent >= 0){
-      target.css('opacity', scrollPercent);
-    }
-  });
-});
