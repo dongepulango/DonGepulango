@@ -1,28 +1,30 @@
 /* ////====== GLOBAL STYLES =====//// */
 
-body 
+*
+  box-sizing: border-box
+
+html,
+body
+  padding: 0
+  margin: 0
+
+body
+  background: #111
   font-family: $akkurat-mono
   color: $text
-  font-size: $font-size
+  font-size: 16px
   line-height: 2
   font-weight: 300
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   font-size: 12px
+  min-height: 100vh
 
-.preload *
-  -webkit-transition: none !important
-  -moz-transition: none !important
-  -ms-transition: none !important
-  -o-transition: none !important
-  transition: none !important
-
-.container-fluid
-  max-width: 1200px
 
 a 
   color: $link
   transition: all .2s ease-in-out
+  text-decoration: none
   &:hover,
   &:active, 
   &:focus
@@ -32,14 +34,6 @@ a
   &:active
     &:focus
       outline: none
-
-a[x-apple-data-detectors]
-  color: inherit !important
-  text-decoration: none !important
-  font-size: inherit !important
-  font-family: inherit !important
-  font-weight: inherit !important
-  line-height: inherit !important
   
 p 
   margin-bottom: 0
@@ -56,6 +50,3 @@ h6
   font-weight: bold
   margin-top: 0
   color: $text-drk
-
-hr
-  border-top-color: $border
