@@ -30,6 +30,7 @@
         height: 40px
 
   .dg-contact
+    display: block
     text-transform: uppercase
     color: #ddd
     font-weight: bold
@@ -80,16 +81,8 @@
       font-size: 60px
       margin-bottom: 20px
       line-height: 1
-      @media (min-width:$screen-sm-min)
-        font-size: 80px
-        margin-bottom: 25px
-      @media (min-width:$screen-lg-min)
-        font-size: 100px
-        margin-bottom: 30px
-      @media (min-width:1400px)
-        font-size: 120px
     p
-      font-size: 16px
+      font-size: 14px
       line-height: 1.8
       font-weight: 300
       color: #999
@@ -98,13 +91,15 @@
       span
         font-weight: normal
       @media (min-width:$screen-sm-min)
-        font-size: 18px
+        font-size: 16px
+        max-width: 500px
     .html
-      color: darken($brand-info, 8%)
-    .css
-      color: darken($brand-warning, 8%)
-    .js
+
       color: darken($brand-error, 8%)
+    .css
+      color: darken($brand-info, 8%)
+    .js
+      color: darken($brand-warning, 8%)
     a
       display: inline-block
       color: #999
@@ -127,21 +122,19 @@
     margin: 0
     padding: 0
     list-style: none
-    text-align: right
+    //text-align: right
     li
       display: inline-block
-      margin-left: 10px
+      margin-right: 10px
       @media (min-width:$screen-sm-min)
-        margin-left: 40px
-      @media (min-width:$screen-lg-min)
-        margin-left: 50px
+        margin-right: 40px
       a
         color: #ddd
         text-transform: uppercase
         font-size: 9px
         font-weight: bold
         @media (min-width:$screen-sm-min)
-          font-size: 11px
+          font-size: 10px
         &:hover,
         &:focus,
         &:active
