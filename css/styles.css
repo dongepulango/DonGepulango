@@ -49,7 +49,7 @@ body {
   margin: 0; }
 
 body {
-  background: #111;
+  background: #222;
   font-family: AkkuratMono, Courier, sans-serif;
   color: #46575f;
   font-size: 16px;
@@ -194,7 +194,7 @@ h6 {
       font-size: 14px;
       line-height: 1.8;
       font-weight: 300;
-      color: #999; }
+      color: #ccc; }
       .dg-hero .dg-hero-text p strong {
         color: #ddd; }
       .dg-hero .dg-hero-text p span {
@@ -209,14 +209,12 @@ h6 {
       color: #5ccfef; }
     .dg-hero .dg-hero-text .js {
       color: #ffcb26; }
-    .dg-hero .dg-hero-text a {
+    .dg-hero .dg-hero-text .bb-link {
       display: inline-block;
-      color: #999;
-      border-bottom: 1px solid #999;
+      color: #3FD5AE;
       line-height: 1; }
-      .dg-hero .dg-hero-text a:hover, .dg-hero .dg-hero-text a:focus, .dg-hero .dg-hero-text a:active {
-        color: #fff;
-        border-bottom: 1px solid #fff; }
+      .dg-hero .dg-hero-text .bb-link:hover, .dg-hero .dg-hero-text .bb-link:focus, .dg-hero .dg-hero-text .bb-link:active {
+        color: #24a482; }
 
 /* Social */
 .dg-social {
